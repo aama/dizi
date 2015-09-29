@@ -1,6 +1,9 @@
 {
 :lang :dizi
 :sgpref "diz"
+:datasource "Beachy2005"
+:geodemoURL "http://www.ethnologue.com/language/mdx"
+:geodemoTXT "Varieties and subdialects of the Omotic language Dizi are spoken in "
 :schemata {
 :case [:Accusative, :Nom, :Nominative, :Voc, :Vocative]
 	  :derivedStem [:Causative, :CausativeReciprocal, :Passive, :Reciprocal]
