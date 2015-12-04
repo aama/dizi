@@ -20,7 +20,7 @@
 :pclass {
            :pngClass [:person :number :gender ]
            :synsemClass [:case  :derivedStem :nonMainForm :polarity :pos :proClass :tamb ]
-           :inflClass [:conjClass  ]
+           :inflClass [  ]
            :otherClass [ ]
           }
  :morphemes {
