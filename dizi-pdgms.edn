@@ -5,9 +5,11 @@
 :datasource "Beachy2005"
 :geodemoURL "http://www.ethnologue.com/language/mdx"
 :geodemoTXT "Varieties and subdialects of the Omotic language Dizi are spoken in Ethiopia, 'Southern Nations, Nationalities, and Peoples’ region: Bench-Maji zone'; approx. 33,900 speakers."
- :schemata {:case [:Accusative  :Nominative :Vocative],
+ :schemata {:vmorphClass [:AuxNegSuff  :DervStem :NonMainClauseForms :PngProclitic :SubjSuff :TenseAspSuff],
+            :case [:Accusative :Nominative :Vocative],
             :derivedStem [:Causative :CausativeReciprocal :Passive :Reciprocal],
             :gender [:Common :Fem :Masc],
+            :gender-negAux [:Common :Fem :Masc],
             :nonMainForm [:Conditional :Coordinate :DiffSubj :Gerund :Infinitive :RelativeCovert :RelativeOvert :SameSubjOvlp :SameSubjSucc :Temporal],
             :number [:Dual :Plural :Polite :Singular],
             :person [:Person1 :Person2 :Person3],
@@ -15,7 +17,7 @@
             :pos [:Pronoun :Verb],
             :proClass [:Independent :PossPref],
             :tam [:Future :Imperative :Imperfective :Imprtv :Juss :Jussive :Past :Perfect :Present]
-            :pdgmType [:AuxNegSuff :CommandForms :DervStem :Finite :NonMainClauseForms :PngProclitic :SubjSuff :TenseAspSuff :FiniteAuxNegSuff :FiniteCommandForms :PRO]}
+            :pdgmType [:Finite :FiniteAuxNegSuff :FiniteCommandForms :PRO :VOther]}
 :pclass {:pngClass [:person :number :gender],
           :synsemClass [:case :derivedStem :nonMainForm :polarity :pos :proClass :tamb],
           :inflClass [],
@@ -36,7 +38,7 @@
 :lxterms [
     {:label "dizi-VAffCommandForms"
     :note "Beachy2005 Table 20. The imperative and jussive tenses form structurally distinct paradigms in the affirmative – juss:PNGProclitic + verbStem + ga;imprtv:verbStem + ŋ1 + num. In the negative both have the structure:PNGProclitic + verbStem + is. There is no polite form in the negative. The /g/ of ga is deleted after a consonant;the ŋ goes_to n after n,l and before t;ŋ goes_to m after labial (details in Table 21)."
-    :pdgmType :CommandForms
+    :pdgmType :FiniteCommandForms
     :common {:lexeme :baasl,
              :polarity :Affirmative,
              :pos :Verb}
@@ -193,8 +195,9 @@
     }
     {:label "dizi-VAuxNegSuff"
     :note "Beachy2005 Table 10"
-    :pdgmType :AuxNegSuff
-    :common {:pos :Verb}
+    :pdgmType :VOther
+    :common {:vmorphClass :AuxNegSuff
+             :pos :Verb}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "-n2"],
             [:Singular :Person2 :Common "-a2"],
@@ -209,8 +212,9 @@
     }
     {:label "dizi-VDervStem"
     :note "Beachy2005 #3.8.2. The dervStem suffixes are added directly to the lexical root,before the tense-aspect markers. Template: base + baseGloss + derv + dervGloss"
-    :pdgmType :DervStem
-    :common {:pos :Verb}
+    :pdgmType :VOther
+    :common {:vmorphClass :DervStem
+             :pos :Verb}
     :terms [[:derivedStem :token-note-template :token],
             [:Causative "sam + be left over + sam-s- + leave over" "-s-"],
             [:CausativeReciprocal "boy + be married + boy-s-ǝ-sǝm- + marry one another" "-s-ǝ-sǝm-"],
@@ -219,8 +223,9 @@
     }
     {:label "dizi-VNonMainClauseForms"
     :note "Beachy2005 Sect. 3.8.8-10. Dizi has a large number of non-mainClause morphological structures,which have in common the presence of a suffix (including the zero suffix –Ø) where a finite verb would have subject markers. (Note that some subordinate forms have the PNGProclitics.)"
-    :pdgmType :NonMainClauseForms
-    :common {:pos :Verb}
+    :pdgmType :VOther
+    :common {:vmorphClass :NonMainClauseForms
+             :pos :Verb}
     :terms [[:nonMainForm :token-note :token],
             [:Conditional "3.8.8.4 + if clauses" "PNGClitic+verbStem+nt"],
             [:Coordinate "3.8.9 + no PNGClitic" "verbStem+ta … verbStem+tense+ga"],
@@ -236,8 +241,9 @@
     }
     {:label "dizi-VPNGProclitic"
     :note "Beachy2005 Table 10"
-    :pdgmType :PngProclitic
-    :common {:pos :Verb}
+    :pdgmType :VOther
+    :common {:vmorphClass :PngProclitic
+             :pos :Verb}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "ʔŋ2-"],
             [:Singular :Person2 :Common "a2-"],
@@ -252,8 +258,9 @@
     }
     {:label "dizi-VSubjSuff"
     :note "Beachy2005 Table 10,17"
-    :pdgmType :SubjSuff
-    :common {:pos :Verb}
+    :pdgmType :VOther
+    :common {:vmorphClass :SubjSuff
+             :pos :Verb}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "-no1"],
             [:Singular :Person2 :Common "-to1"],
@@ -268,8 +275,9 @@
     }
     {:label "dizi-VTenseAspSuff"
     :note "Beachy2005 Table 19. Yes/no questions are formed:PNGProclitic[Table 10]+ verbStem + tense + interr (vs. non-interrog:verbStem + tense + subjSuff). Examples:3.8.6 (160)-(164). Template: affVP + interrVP + affTrans + interrTrans."
-    :pdgmType :TenseAspSuff
-    :common {:pos :Verb}
+    :pdgmType :VOther
+    :common {:vmorphClass :TenseAspSuff
+             :pos :Verb}
     :terms [[:tam :token-note-template :token],
             [:Future "kez-i-go + a3-kez-i + it becomes_hot + does it become_hot?" "-i"],
             [:Imperfective "kes-dɛ-no + a2-kes-da + I pay + do you pay?" "-d"],
