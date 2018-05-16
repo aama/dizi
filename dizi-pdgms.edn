@@ -32,7 +32,7 @@
  :termclusters [
                 {:label "dizi-VAffCommandForms"
                  :note "Beachy2005 Table 20. The imperative and jussive tenses form structurally distinct paradigms in the affirmative – juss:PNGProclitic + verbStem + ga;imprtv:verbStem + ŋ1 + num. In the negative both have the structure:PNGProclitic + verbStem + is. There is no polite form in the negative. The /g/ of ga is deleted after a consonant;the ŋ goes_to n after n,l and before t;ŋ goes_to m after labial (details in Table 21)."
-                 :common {:vmorphclass :FiniteCommandForms
+                 :common {:vmorphClass :FiniteCommandForms
                           :lexeme :baasl,
                           :polarity :Affirmative,
                           :pos :Verb}
@@ -48,7 +48,7 @@
                  }
                 {:label "dizi-VJussImprtvAff-baasl"
                  :note "Beachy2005 Table 20. The imperative and jussive tenses form structurally distinct paradigms in the affirmative – juss:PNGProclitic + verbStem + ga;imprtv:verbStem + ŋ1 + num. In the negative both have the structure:PNGProclitic + verbStem + is. There is no polite form in the negative. The /g/ of ga is deleted after a consonant;the ŋ goes_to n after n,l and before t;ŋ goes_to m after labial (details in Table 21)."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :baasl,
                           :polarity :Affirmative,
                           :pos :Verb}
@@ -64,7 +64,7 @@
                  }
                 {:label "dizi-VJussImprtvNeg-baasl"
                  :note "Beachy2005 Table 22. The imperative and jussive tenses form structurally distinct paradigms in the affirmative – juss:PNGProclitic + verbStem + ga;imprtv:verbStem + ŋ1 + num. In the negative both have the structure:PNGProclitic + verbStem + is. There is no polite form in the negative."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :baasl,
                           :polarity :Negative,
                           :pos :Verb}
@@ -79,7 +79,7 @@
                  }
                 {:label "dizi-VNegAuxNegSuff-baasl"
                  :note "Beachy2005 Table 10 and 3.10. Main clause declatative negation consists of the negative auxiliary nan (var. na before 3sgm and 2sg,nɛ before suffixes beginning in –i-) with auxNegSuff,followed optionally by other sentence constituents,followed by tense-marked verb suffixed with -ti :nan + auxMNegSuff"
-                 :common {:vmorphclass :FiniteAuxNegSuff
+                 :common {:vmorphClass :FiniteAuxNegSuff
                           :lexeme :baasl,
                           :polarity :Negative,
                           :pos :Verb}
@@ -97,7 +97,7 @@
                  }
                 {:label "dizi-VNegCommandForms"
                  :note "Beachy2005 Table 22. The imperative and jussive tenses form structurally distinct paradigms in the affirmative – juss:PNGProclitic + verbStem + ga;imprtv:verbStem + ŋ1 + num. In the negative both have the structure:PNGProclitic + verbStem + is. There is no polite form in the negative."
-                 :common {:vmorphclass :FiniteCommandForms
+                 :common {:vmorphClass :FiniteCommandForms
                           :lexeme :baasl-2,
                           :polarity :Negative,
                           :pos :Verb}
@@ -112,7 +112,7 @@
                  }
                 {:label "dizi-VPastAff-baasl"
                  :note "Beachy2005 Table 17"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :baasl,
                           :polarity :Affirmative,
                           :pos :Verb,
