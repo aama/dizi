@@ -6,7 +6,6 @@
  :geodemoURL "http://www.ethnologue.com/language/mdx"
  :geodemoTXT "Varieties and subdialects of the Omotic language Dizi are spoken in Ethiopia, 'Southern Nations, Nationalities, and Peoples’ region: Bench-Maji zone'; approx. 33,900 speakers."
  :schemata {:gender-negAux [:Common  :Fem :Masc],
- :lexeme [:baasl :baasl-2],
  :case [:Accusative :Nominative :Vocative],
  :derivedStem [:Causative :CausativeReciprocal :Passive :Reciprocal],
  :gender [:Common :Fem :Masc],
@@ -24,13 +23,15 @@
           :synsemClass [:case :derivedStem :nonMainForm :polarity :pos :proClass :tamb],
           :inflClass [],
           :otherClass []}
- :lexemes{:baasl {:lemma "ba:sl-", :gloss "want"},
-          :baasl-2 {:note "same as basl?", :lemma "ba:s-", :gloss "want"},
-          :hoo-s {:lemma "ho:-s-", :gloss "help", :derivedStem :Causative, :pos :Verb},
-          :kes {:lemma "kes-", :gloss "pay"},
-          :kez {:lemma "kez-", :gloss "become hot"},
-          :mam {:lemma "mam-", :gloss "be prepared"},
-          :tus {:lemma "tus-", :gloss "know"}}
+ :lexemes {
+:baasl   {:pos :Verb, :lemma "ba:sl-", :gloss "want", },
+:baasl-2   {:pos :Verb, :lemma "ba:s-", :gloss "want", :note "same as basl?"},
+:hoo-s   {:pos :Verb, :lemma "ho:-s-", :gloss "help", :derivedStem :Causative},
+:kes   {:pos :Verb, :lemma "kes-", :gloss "pay", },
+:kez   {:pos :Verb, :lemma "kez-", :gloss "become hot", },
+:mam   {:pos :Verb, :lemma "mam-", :gloss "be prepared", },
+:tus   {:pos :Verb, :lemma "tus-", :gloss "know", },
+}
  :termclusters [
                 {:label "dizi-VAffCommandForms"
                  :note "Beachy2005 Table 20. The imperative and jussive tenses form structurally distinct paradigms in the affirmative – juss:PNGProclitic + verbStem + ga;imprtv:verbStem + ŋ1 + num. In the negative both have the structure:PNGProclitic + verbStem + is. There is no polite form in the negative. The /g/ of ga is deleted after a consonant;the ŋ goes_to n after n,l and before t;ŋ goes_to m after labial (details in Table 21)."
