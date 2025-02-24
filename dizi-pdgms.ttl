@@ -14,7 +14,7 @@
 
 aama:Dizi a aamas:Language.
 aama:Dizi rdfs:label "Dizi" .
-aama:Dizi aamas:subfamily "Northern Omotic Maji" .
+aama:Dizi aamas:subfamily "omotic north maji" .
 aama:Dizi aamas:lpref "diz" .
 aama:Dizi aamas:dataSource "Beachy, Marvin Dean. 2005. An Overview of Central Dizin Phonology and Morphology. MA Thesis. University of Texas at Austin. [B05]" .
 aama:Dizi aamas:geodemoURL "http://www.ethnologue.com/language/mdx" .
@@ -111,9 +111,9 @@ diz:lexeme rdfs:subPropertyOf diz:muProperty .
 diz:baas aamas:lang aama:Dizi .
 diz:baas rdf:type aamas:LEXEME .
 diz:baas rdfs:label "baas" .
-diz:non aamas:lang aama:Dizi .
-diz:non rdf:type aamas:LEXEME .
-diz:non rdfs:label "non" .
+diz:nan aamas:lang aama:Dizi .
+diz:nan rdf:type aamas:LEXEME .
+diz:nan rdfs:label "nan" .
 
 #SCHEMATA: morphClass
 diz:morphClass aamas:lang aama:Dizi .
@@ -307,16 +307,9 @@ diz:Present rdfs:label "Present" .
 
 #LexItems: Dizi
 
-diz:lex-baasl a aamas:Lexeme ;
+diz:lex-baas a aamas:Lexeme ;
 	aamas:lang aama:dizi ;
-	rdfs:label "baasl" ;
-	diz:pos diz:Verb ; 
-	aamas:lemma "ba:sl-" ; 
-	aamas:gloss "want" ; 
-	.
-diz:lex-baasl-2 a aamas:Lexeme ;
-	aamas:lang aama:dizi ;
-	rdfs:label "baasl-2" ;
+	rdfs:label "baas" ;
 	diz:pos diz:Verb ; 
 	aamas:lemma "ba:s-" ; 
 	aamas:gloss "want" ; 
@@ -350,6 +343,13 @@ diz:lex-mam a aamas:Lexeme ;
 	aamas:lemma "mam-" ; 
 	aamas:gloss "be prepared" ; 
 	.
+diz:lex-nan a aamas:Lexeme ;
+	aamas:lang aama:dizi ;
+	rdfs:label "nan" ;
+	diz:pos diz:Verb ; 
+	aamas:lemma "nan-" ; 
+	aamas:gloss "negative auxiliary" ; 
+	.
 diz:lex-tus a aamas:Lexeme ;
 	aamas:lang aama:dizi ;
 	rdfs:label "tus" ;
@@ -368,7 +368,7 @@ diz:diz-PronounIndependent a aamas:Termcluster ;
 	rdfs:comment "B05t10&16" 
 	.
 
-aama:IDdaca63de-04c8-437c-88fc-2b0abcbfb97e a aamas:Term ;
+aama:IDb88173ee-93d5-4ed6-8665-feef4098b219 a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-PronounIndependent ;
 	diz:pos diz:Pronoun ;
@@ -380,7 +380,7 @@ aama:IDdaca63de-04c8-437c-88fc-2b0abcbfb97e a aamas:Term ;
 	diz:token "yinn" ;
 	.
 
-aama:IDd40f6461-5878-4e31-bd81-28f32b76b485 a aamas:Term ;
+aama:ID8cab85ac-ff14-4b25-b6e7-5b4318fa5802 a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-PronounIndependent ;
 	diz:pos diz:Pronoun ;
@@ -392,7 +392,7 @@ aama:IDd40f6461-5878-4e31-bd81-28f32b76b485 a aamas:Term ;
 	diz:token "etn / yɛtn" ;
 	.
 
-aama:ID661cb323-d7aa-426b-9f71-94657ff0b515 a aamas:Term ;
+aama:ID78c15634-2fcd-47bb-ab85-ebfb03d13128 a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-PronounIndependent ;
 	diz:pos diz:Pronoun ;
@@ -404,7 +404,7 @@ aama:ID661cb323-d7aa-426b-9f71-94657ff0b515 a aamas:Term ;
 	diz:token "izn" ;
 	.
 
-aama:ID66695f5d-e03f-465d-ac31-265a4ce4cb56 a aamas:Term ;
+aama:IDd381fd85-f872-4070-8e77-35bb03b8f810 a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-PronounIndependent ;
 	diz:pos diz:Pronoun ;
@@ -416,7 +416,7 @@ aama:ID66695f5d-e03f-465d-ac31-265a4ce4cb56 a aamas:Term ;
 	diz:token "iʒn" ;
 	.
 
-aama:IDa8adbf8d-8123-4689-9ee4-6db748eb4f8e a aamas:Term ;
+aama:ID491258c3-f4aa-42cd-9b63-a191862c4ffe a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-PronounIndependent ;
 	diz:pos diz:Pronoun ;
@@ -428,7 +428,7 @@ aama:IDa8adbf8d-8123-4689-9ee4-6db748eb4f8e a aamas:Term ;
 	diz:token "inn" ;
 	.
 
-aama:ID270d5fc6-b191-4a58-bde3-106f5893b017 a aamas:Term ;
+aama:IDa5a077d4-576e-49f5-9280-7287fc22fd3a a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-PronounIndependent ;
 	diz:pos diz:Pronoun ;
@@ -440,7 +440,7 @@ aama:ID270d5fc6-b191-4a58-bde3-106f5893b017 a aamas:Term ;
 	diz:token "itin / itn" ;
 	.
 
-aama:ID67705be3-b1f2-42cb-b098-d46a19fd8bab a aamas:Term ;
+aama:IDfe6089fa-4b1b-4b01-95e8-0dd1d4e15591 a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-PronounIndependent ;
 	diz:pos diz:Pronoun ;
@@ -452,7 +452,7 @@ aama:ID67705be3-b1f2-42cb-b098-d46a19fd8bab a aamas:Term ;
 	diz:token "išin / išn" ;
 	.
 
-aama:ID353d2245-5af2-4dff-a08d-4f33a79236c1 a aamas:Term ;
+aama:ID32227c30-7597-4b3b-a5a6-a1990dd8f231 a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-PronounIndependent ;
 	diz:pos diz:Pronoun ;
@@ -464,7 +464,7 @@ aama:ID353d2245-5af2-4dff-a08d-4f33a79236c1 a aamas:Term ;
 	diz:token "⊤" ;
 	.
 
-aama:ID409e821f-8c32-4e72-84be-5ced2fe8f650 a aamas:Term ;
+aama:ID3b2c7ff5-63cc-4a69-a4ec-0984aa7bf19d a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-PronounIndependent ;
 	diz:pos diz:Pronoun ;
@@ -476,7 +476,7 @@ aama:ID409e821f-8c32-4e72-84be-5ced2fe8f650 a aamas:Term ;
 	diz:token "⊤" ;
 	.
 
-aama:ID0801c911-f4e7-43e6-a8ea-20ecda08b40e a aamas:Term ;
+aama:IDd5aae540-c921-4d3a-b644-469960105032 a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-PronounIndependent ;
 	diz:pos diz:Pronoun ;
@@ -488,7 +488,7 @@ aama:ID0801c911-f4e7-43e6-a8ea-20ecda08b40e a aamas:Term ;
 	diz:token "⊤" ;
 	.
 
-aama:IDfe2c55a7-69de-47ea-8e74-dbed6a22b137 a aamas:Term ;
+aama:ID70f8df5b-66e7-451e-b3d7-75a6bad25fc2 a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-PronounIndependent ;
 	diz:pos diz:Pronoun ;
@@ -500,7 +500,7 @@ aama:IDfe2c55a7-69de-47ea-8e74-dbed6a22b137 a aamas:Term ;
 	diz:token "yi1nu2" ;
 	.
 
-aama:IDfd1d1117-3a58-4836-9889-c31eba72a630 a aamas:Term ;
+aama:IDb6f3ef36-c7d5-47ba-b96f-d66fc61cdd1e a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-PronounIndependent ;
 	diz:pos diz:Pronoun ;
@@ -512,7 +512,7 @@ aama:IDfd1d1117-3a58-4836-9889-c31eba72a630 a aamas:Term ;
 	diz:token "e1tu2 / yɛ1tu2 / ɛ1tu2" ;
 	.
 
-aama:ID8375eb6c-5b73-4f4f-89ee-d2269a847f86 a aamas:Term ;
+aama:ID92b8570d-eaab-4fac-a925-502b48b1495b a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-PronounIndependent ;
 	diz:pos diz:Pronoun ;
@@ -524,7 +524,7 @@ aama:ID8375eb6c-5b73-4f4f-89ee-d2269a847f86 a aamas:Term ;
 	diz:token "i2zu2 / i2za3" ;
 	.
 
-aama:ID2590c7b4-1eca-4163-88f0-04244bb44555 a aamas:Term ;
+aama:ID5e7fd4ff-ed94-4012-b7b6-b12b2f61d535 a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-PronounIndependent ;
 	diz:pos diz:Pronoun ;
@@ -536,7 +536,7 @@ aama:ID2590c7b4-1eca-4163-88f0-04244bb44555 a aamas:Term ;
 	diz:token "iʒ2 / i2ʒi2" ;
 	.
 
-aama:ID27e7ec78-e9be-416a-9a27-083281ce1989 a aamas:Term ;
+aama:ID07872b24-4aff-4b58-945a-c4ba1c1b4ab2 a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-PronounIndependent ;
 	diz:pos diz:Pronoun ;
@@ -548,7 +548,7 @@ aama:ID27e7ec78-e9be-416a-9a27-083281ce1989 a aamas:Term ;
 	diz:token "i3nu3" ;
 	.
 
-aama:ID5dd110c3-dd30-4749-8529-2670cc6a33c3 a aamas:Term ;
+aama:ID37d7adf7-2d74-439e-acd7-45d9fe7e11f1 a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-PronounIndependent ;
 	diz:pos diz:Pronoun ;
@@ -560,7 +560,7 @@ aama:ID5dd110c3-dd30-4749-8529-2670cc6a33c3 a aamas:Term ;
 	diz:token "i3ti2" ;
 	.
 
-aama:IDbd59630a-4d36-4cf5-8c42-21a0c4a4baf3 a aamas:Term ;
+aama:ID96b45b5d-1039-4e8d-93bf-6cc04614cbe7 a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-PronounIndependent ;
 	diz:pos diz:Pronoun ;
@@ -572,7 +572,7 @@ aama:IDbd59630a-4d36-4cf5-8c42-21a0c4a4baf3 a aamas:Term ;
 	diz:token "i3ši2" ;
 	.
 
-aama:ID7ed6c1e5-bc30-452c-85bf-ad16fcd1dac5 a aamas:Term ;
+aama:IDcbb31f93-61d2-4d70-833f-9c89a3dd1d3a a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-PronounIndependent ;
 	diz:pos diz:Pronoun ;
@@ -584,7 +584,7 @@ aama:ID7ed6c1e5-bc30-452c-85bf-ad16fcd1dac5 a aamas:Term ;
 	diz:token "i3na2 / i3nu2" ;
 	.
 
-aama:IDdf9c8247-a2c1-4616-9a89-757c2f82a7cc a aamas:Term ;
+aama:ID867fbe14-34eb-48cc-a22d-03f64d613de6 a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-PronounIndependent ;
 	diz:pos diz:Pronoun ;
@@ -596,7 +596,7 @@ aama:IDdf9c8247-a2c1-4616-9a89-757c2f82a7cc a aamas:Term ;
 	diz:token "i3ta2" ;
 	.
 
-aama:ID3ba30a96-850c-405a-b176-f3d09aa6b8dd a aamas:Term ;
+aama:IDaf59db11-478f-4968-9253-810c66a30058 a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-PronounIndependent ;
 	diz:pos diz:Pronoun ;
@@ -608,7 +608,7 @@ aama:ID3ba30a96-850c-405a-b176-f3d09aa6b8dd a aamas:Term ;
 	diz:token "i3ša2" ;
 	.
 
-aama:ID75009ac6-ba44-41c7-a17c-a54348ff839d a aamas:Term ;
+aama:IDc26b142b-cb0f-4e66-970a-fc7f878d66e8 a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-PronounIndependent ;
 	diz:pos diz:Pronoun ;
@@ -620,7 +620,7 @@ aama:ID75009ac6-ba44-41c7-a17c-a54348ff839d a aamas:Term ;
 	diz:token "⊤" ;
 	.
 
-aama:ID531da0db-6a3e-44a0-8419-433bb0325f4e a aamas:Term ;
+aama:ID5e1c410f-4f81-4500-af5c-50d84b38b05d a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-PronounIndependent ;
 	diz:pos diz:Pronoun ;
@@ -632,7 +632,7 @@ aama:ID531da0db-6a3e-44a0-8419-433bb0325f4e a aamas:Term ;
 	diz:token "a3rɛy32" ;
 	.
 
-aama:ID743038b9-1a5e-4a8a-96dd-45dbd5452b24 a aamas:Term ;
+aama:IDb7b062c9-fa2b-4b50-a9b8-179f09a004ed a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-PronounIndependent ;
 	diz:pos diz:Pronoun ;
@@ -644,7 +644,7 @@ aama:ID743038b9-1a5e-4a8a-96dd-45dbd5452b24 a aamas:Term ;
 	diz:token "i3rɛy32" ;
 	.
 
-aama:IDa4176f9e-3e0e-4f4e-a694-58c8c4c01109 a aamas:Term ;
+aama:ID2fe36bd1-5e5d-4dac-9922-016c753601dd a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-PronounIndependent ;
 	diz:pos diz:Pronoun ;
@@ -656,7 +656,7 @@ aama:IDa4176f9e-3e0e-4f4e-a694-58c8c4c01109 a aamas:Term ;
 	diz:token "e1tu2" ;
 	.
 
-aama:IDd5478895-7255-452a-a553-c6e530cd6579 a aamas:Term ;
+aama:ID0f1ccd11-e65c-47be-bd59-000a005abc5e a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-PronounIndependent ;
 	diz:pos diz:Pronoun ;
@@ -668,7 +668,7 @@ aama:IDd5478895-7255-452a-a553-c6e530cd6579 a aamas:Term ;
 	diz:token "⊤" ;
 	.
 
-aama:ID32ab8ed2-e6cc-46cd-82c6-3c058f1ef133 a aamas:Term ;
+aama:ID078d4681-b435-4965-82ed-ecceb72e0f20 a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-PronounIndependent ;
 	diz:pos diz:Pronoun ;
@@ -680,7 +680,7 @@ aama:ID32ab8ed2-e6cc-46cd-82c6-3c058f1ef133 a aamas:Term ;
 	diz:token "⊤" ;
 	.
 
-aama:IDa98d0216-e148-4dd4-ae2b-2e9c799809e6 a aamas:Term ;
+aama:ID389101c4-333e-466a-b1a8-76f185935f3c a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-PronounIndependent ;
 	diz:pos diz:Pronoun ;
@@ -692,7 +692,7 @@ aama:IDa98d0216-e148-4dd4-ae2b-2e9c799809e6 a aamas:Term ;
 	diz:token "⊤" ;
 	.
 
-aama:IDbfd9db71-f762-4c0c-bbed-4ad0a04a7368 a aamas:Term ;
+aama:ID52fb256b-a34e-49b9-9909-d4030658e500 a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-PronounIndependent ;
 	diz:pos diz:Pronoun ;
@@ -704,7 +704,7 @@ aama:IDbfd9db71-f762-4c0c-bbed-4ad0a04a7368 a aamas:Term ;
 	diz:token "i3ti2" ;
 	.
 
-aama:ID6d4fd196-79fb-4694-a333-ad7215ffdd1a a aamas:Term ;
+aama:ID4e82a385-6881-4413-b18f-b0c86d9a0823 a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-PronounIndependent ;
 	diz:pos diz:Pronoun ;
@@ -716,7 +716,7 @@ aama:ID6d4fd196-79fb-4694-a333-ad7215ffdd1a a aamas:Term ;
 	diz:token "⊤" ;
 	.
 
-aama:IDfb9aef2d-2860-4c39-94a6-74a616b1e647 a aamas:Term ;
+aama:IDc4dd96e5-50a8-4389-9405-e97a483fe328 a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-PronounIndependent ;
 	diz:pos diz:Pronoun ;
@@ -728,7 +728,7 @@ aama:IDfb9aef2d-2860-4c39-94a6-74a616b1e647 a aamas:Term ;
 	diz:token "⊤" ;
 	.
 
-aama:ID3f3f2dba-dd00-49cc-9feb-a6db755e793e a aamas:Term ;
+aama:ID756abfde-d744-4b61-b1be-a88a080c3001 a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-PronounIndependent ;
 	diz:pos diz:Pronoun ;
@@ -740,7 +740,7 @@ aama:ID3f3f2dba-dd00-49cc-9feb-a6db755e793e a aamas:Term ;
 	diz:token "i3ta2" ;
 	.
 
-aama:ID7cea40dc-20d0-49df-9a35-afe22398a278 a aamas:Term ;
+aama:IDfa9373f7-9754-4e54-888a-bd45b1702a08 a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-PronounIndependent ;
 	diz:pos diz:Pronoun ;
@@ -760,7 +760,7 @@ diz:diz-PronounPossPref a aamas:Termcluster ;
 	rdfs:comment "B05t10&12" 
 	.
 
-aama:ID42d86092-20d4-4e29-86e6-0fa73ca2d343 a aamas:Term ;
+aama:IDb69cb673-8ffc-4a4f-a030-a6b20d0a2cc6 a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-PronounPossPref ;
 	diz:pos diz:Pronoun ;
@@ -771,7 +771,7 @@ aama:ID42d86092-20d4-4e29-86e6-0fa73ca2d343 a aamas:Term ;
 	diz:token "ʔŋ2-" ;
 	.
 
-aama:IDb16049ce-0515-40b6-bf3f-4f062dddc83d a aamas:Term ;
+aama:ID9a174f78-0ffb-41f2-9d30-fe83ea595b01 a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-PronounPossPref ;
 	diz:pos diz:Pronoun ;
@@ -782,7 +782,7 @@ aama:IDb16049ce-0515-40b6-bf3f-4f062dddc83d a aamas:Term ;
 	diz:token "a2-" ;
 	.
 
-aama:ID65bfc91a-837c-4bed-996a-a612e754ae27 a aamas:Term ;
+aama:ID8ead6491-86d1-4a50-a7f0-144c120e9b05 a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-PronounPossPref ;
 	diz:pos diz:Pronoun ;
@@ -793,7 +793,7 @@ aama:ID65bfc91a-837c-4bed-996a-a612e754ae27 a aamas:Term ;
 	diz:token "a3-" ;
 	.
 
-aama:ID5747a9b1-471e-4a61-8aae-b0ee88377df4 a aamas:Term ;
+aama:IDd06b1a4a-32d1-4391-b1bb-426f8114b77d a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-PronounPossPref ;
 	diz:pos diz:Pronoun ;
@@ -804,7 +804,7 @@ aama:ID5747a9b1-471e-4a61-8aae-b0ee88377df4 a aamas:Term ;
 	diz:token "i3-" ;
 	.
 
-aama:ID6f488fb5-c662-47df-9e39-89c7716c6c17 a aamas:Term ;
+aama:ID33c00e89-bcc2-44e5-8dfd-f9681aa0ad3c a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-PronounPossPref ;
 	diz:pos diz:Pronoun ;
@@ -815,7 +815,7 @@ aama:ID6f488fb5-c662-47df-9e39-89c7716c6c17 a aamas:Term ;
 	diz:token "ʔŋ3-" ;
 	.
 
-aama:ID105accb0-e758-40e2-9058-efacffd9cf1f a aamas:Term ;
+aama:IDecb6af46-cbcf-4241-a42d-39524c4ea131 a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-PronounPossPref ;
 	diz:pos diz:Pronoun ;
@@ -826,7 +826,7 @@ aama:ID105accb0-e758-40e2-9058-efacffd9cf1f a aamas:Term ;
 	diz:token "i3t(i2)-" ;
 	.
 
-aama:ID2917a956-3e6c-472e-a93d-c92351b2eff3 a aamas:Term ;
+aama:ID767ea376-a5e1-4e90-96ab-0f1354eb8473 a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-PronounPossPref ;
 	diz:pos diz:Pronoun ;
@@ -837,7 +837,7 @@ aama:ID2917a956-3e6c-472e-a93d-c92351b2eff3 a aamas:Term ;
 	diz:token "iš3-" ;
 	.
 
-aama:ID620c8e72-a59a-4d40-aabf-fdb70f41fa58 a aamas:Term ;
+aama:ID4d9dd125-7ee4-4d17-9a5f-bd99b3dfd511 a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-PronounPossPref ;
 	diz:pos diz:Pronoun ;
@@ -848,7 +848,7 @@ aama:ID620c8e72-a59a-4d40-aabf-fdb70f41fa58 a aamas:Term ;
 	diz:token "ʔŋ3-a2-" ;
 	.
 
-aama:ID30b26b92-3d04-4c5f-8ef4-50830b0e12df a aamas:Term ;
+aama:ID99de71af-5037-4065-a4ef-d9518afec6de a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-PronounPossPref ;
 	diz:pos diz:Pronoun ;
@@ -859,7 +859,7 @@ aama:ID30b26b92-3d04-4c5f-8ef4-50830b0e12df a aamas:Term ;
 	diz:token "i3t-a2" ;
 	.
 
-aama:ID3fa8f44b-1a47-44bc-a10d-e80c0578fc2e a aamas:Term ;
+aama:ID0d971d73-9684-4a42-83a3-f40a40b46326 a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-PronounPossPref ;
 	diz:pos diz:Pronoun ;
@@ -878,7 +878,7 @@ diz:diz-Verb-baas-ImperativeAffirmative a aamas:Termcluster ;
 	rdfs:comment "B05t20 :: The imperative and jussive tenses form structurally distinct paradigms in the affirmative – juss:PNGProclitic + verbStem + ga;imprtv:verbStem + ŋ1 + num. In the negative both have the structure:PNGProclitic + verbStem + is. There is no polite form in the negative :: The /g/ of ga is deleted after a consonant;the ŋ goes_to n after n,l and before t;ŋ goes_to m after labial (details in Table 21)." 
 	.
 
-aama:ID5b493ebc-c84a-4195-917f-3bf6d777428b a aamas:Term ;
+aama:IDe734560d-1c27-4f2d-b5dd-b789935bc5d7 a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-Verb-baas-ImperativeAffirmative ;
 	aamas:lexeme diz:lex-baas ;
@@ -891,7 +891,7 @@ aama:ID5b493ebc-c84a-4195-917f-3bf6d777428b a aamas:Term ;
 	diz:token "ba:s1-ŋ1" ;
 	.
 
-aama:IDc3abf0ed-6c48-4f9f-b6d6-c89823d72cc4 a aamas:Term ;
+aama:IDbc55bb57-2fea-42a5-a8f9-9e2df2b9157c a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-Verb-baas-ImperativeAffirmative ;
 	aamas:lexeme diz:lex-baas ;
@@ -904,7 +904,7 @@ aama:IDc3abf0ed-6c48-4f9f-b6d6-c89823d72cc4 a aamas:Term ;
 	diz:token "ba:s1-ŋ1-dɛy" ;
 	.
 
-aama:ID23aa5c84-74ba-4c99-b8bb-7d7b9ff06d49 a aamas:Term ;
+aama:IDd9bae3e0-cefb-4acb-9b39-897988e21ad1 a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-Verb-baas-ImperativeAffirmative ;
 	aamas:lexeme diz:lex-baas ;
@@ -922,10 +922,10 @@ aama:ID23aa5c84-74ba-4c99-b8bb-7d7b9ff06d49 a aamas:Term ;
 diz:diz-Verb-baas-ImperativeNegative a aamas:Termcluster ;
 	rdfs:label "diz-Verb-baas-ImperativeNegative" ;
 	aamas:lang aama:Dizi ;
-	rdfs:comment "B05t22 :: The imperative and jussive tenses form structurally distinct paradigms in the affirmative – juss:PNGProclitic + verbStem + ga;imprtv:verbStem + ŋ1 + num. In the negative both have the structure:PNGProclitic + verbStem + is. There is no polite form in the negative." 
+	rdfs:comment "B05t22 :: The imperative and jussive tenses form structurally distinct paradigms in the affirmative – juss:PNGProclitic + verbStem + ga;imprtv:verbStem + ŋ1 + num. In the negative both have the structure:PNGProclitic + verbStem + is. There is no poszxlite form in the negative." 
 	.
 
-aama:ID6ee4d93f-c468-4778-8cee-f347f251ba4c a aamas:Term ;
+aama:ID2b1b2a97-c58f-442b-b726-03fe70f1580b a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-Verb-baas-ImperativeNegative ;
 	aamas:lexeme diz:lex-baas ;
@@ -938,7 +938,7 @@ aama:ID6ee4d93f-c468-4778-8cee-f347f251ba4c a aamas:Term ;
 	diz:token "a2- ba:s-is" ;
 	.
 
-aama:ID99842e98-58a8-447e-90c7-5f387b843f3f a aamas:Term ;
+aama:IDeb2b3457-4d3c-4492-b399-a7a358803236 a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-Verb-baas-ImperativeNegative ;
 	aamas:lexeme diz:lex-baas ;
@@ -959,7 +959,7 @@ diz:diz-Verb-baas-ImperativeNegative a aamas:Termcluster ;
 	rdfs:comment "B05t22 :: The imperative and jussive tenses form structurally distinct paradigms in the affirmative – juss:PNGProclitic + verbStem + ga;imprtv:verbStem + ŋ1 + num. In the negative both have the structure:PNGProclitic + verbStem + is. There is no polite form in the negative." 
 	.
 
-aama:ID2bc57dcd-e16f-477a-b40b-d0cd7d708563 a aamas:Term ;
+aama:ID54a25d55-e1ec-4cfb-a964-664ac3ee7790 a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-Verb-baas-ImperativeNegative ;
 	aamas:lexeme diz:lex-baas ;
@@ -972,7 +972,7 @@ aama:ID2bc57dcd-e16f-477a-b40b-d0cd7d708563 a aamas:Term ;
 	diz:token "a2- ba:s-is" ;
 	.
 
-aama:ID650ae15a-e2e3-420f-b6ac-f2fd10838b6d a aamas:Term ;
+aama:ID25de3a1d-a915-4b70-97a3-d515940dedc8 a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-Verb-baas-ImperativeNegative ;
 	aamas:lexeme diz:lex-baas ;
@@ -993,7 +993,7 @@ diz:diz-Verb-baas-JussiveAffirmative a aamas:Termcluster ;
 	rdfs:comment "B05t20 :: The imperative and jussive tenses form structurally distinct paradigms in the affirmative – juss:PNGProclitic + verbStem + ga;imprtv:verbStem + ŋ1 + num. In the negative both have the structure:PNGProclitic + verbStem + is. There is no polite form in the negative :: The /g/ of ga is deleted after a consonant;the ŋ goes_to n after n,l and before t;ŋ goes_to m after labial (details in Table 21)." 
 	.
 
-aama:ID548d1660-2e76-4173-89ab-387e98ec8d6a a aamas:Term ;
+aama:ID77d2825e-e590-40ef-9aac-2c9088a8f24c a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-Verb-baas-JussiveAffirmative ;
 	aamas:lexeme diz:lex-baas ;
@@ -1006,7 +1006,7 @@ aama:ID548d1660-2e76-4173-89ab-387e98ec8d6a a aamas:Term ;
 	diz:token "ʔŋ2-ba:s1-ga1" ;
 	.
 
-aama:ID57091fa4-f445-4192-a76f-aa691fb83213 a aamas:Term ;
+aama:ID6866dcfe-300e-434f-83ab-8dc984420cc6 a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-Verb-baas-JussiveAffirmative ;
 	aamas:lexeme diz:lex-baas ;
@@ -1019,7 +1019,7 @@ aama:ID57091fa4-f445-4192-a76f-aa691fb83213 a aamas:Term ;
 	diz:token "a3- ba:s1-ga1" ;
 	.
 
-aama:IDcf08fb5a-358d-4bdb-8cce-5cb2cd036510 a aamas:Term ;
+aama:ID77258ff2-8602-438f-9cbf-e2118fed8944 a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-Verb-baas-JussiveAffirmative ;
 	aamas:lexeme diz:lex-baas ;
@@ -1032,7 +1032,7 @@ aama:IDcf08fb5a-358d-4bdb-8cce-5cb2cd036510 a aamas:Term ;
 	diz:token "i3- ba:s1-ga1" ;
 	.
 
-aama:IDe5160c1f-c979-41b4-b255-f087296d35c2 a aamas:Term ;
+aama:ID8de31ad6-94cf-48d0-ba59-d0060fd428f8 a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-Verb-baas-JussiveAffirmative ;
 	aamas:lexeme diz:lex-baas ;
@@ -1045,7 +1045,7 @@ aama:IDe5160c1f-c979-41b4-b255-f087296d35c2 a aamas:Term ;
 	diz:token "ʔŋ3- ba:s1-ga1" ;
 	.
 
-aama:ID602e0e32-089a-4905-b1c1-09183a43826b a aamas:Term ;
+aama:ID3ea35d9c-671b-42ad-a960-b1bfbd7e246f a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-Verb-baas-JussiveAffirmative ;
 	aamas:lexeme diz:lex-baas ;
@@ -1066,7 +1066,7 @@ diz:diz-Verb-baas-JussiveNegative a aamas:Termcluster ;
 	rdfs:comment "B05t22 :: The imperative and jussive tenses form structurally distinct paradigms in the affirmative – juss:PNGProclitic + verbStem + ga;imprtv:verbStem + ŋ1 + num. In the negative both have the structure:PNGProclitic + verbStem + is. There is no polite form in the negative." 
 	.
 
-aama:ID5c1774f4-546e-48d0-a889-f205ea8bcb07 a aamas:Term ;
+aama:ID52fad172-78c0-448f-90ef-4900b7eb0259 a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-Verb-baas-JussiveNegative ;
 	aamas:lexeme diz:lex-baas ;
@@ -1079,7 +1079,7 @@ aama:ID5c1774f4-546e-48d0-a889-f205ea8bcb07 a aamas:Term ;
 	diz:token "ʔŋ2-ba:s-is" ;
 	.
 
-aama:IDe792e4d8-6868-4921-a66a-1d968466d004 a aamas:Term ;
+aama:ID21080712-d54c-4a89-8d97-9ef966aa1f4e a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-Verb-baas-JussiveNegative ;
 	aamas:lexeme diz:lex-baas ;
@@ -1092,7 +1092,7 @@ aama:IDe792e4d8-6868-4921-a66a-1d968466d004 a aamas:Term ;
 	diz:token "a3- ba:s-is" ;
 	.
 
-aama:ID34b6b908-2af7-41cf-86dd-3233cd16d803 a aamas:Term ;
+aama:IDf6749bff-e219-43e9-83fd-b48195b95deb a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-Verb-baas-JussiveNegative ;
 	aamas:lexeme diz:lex-baas ;
@@ -1105,7 +1105,7 @@ aama:ID34b6b908-2af7-41cf-86dd-3233cd16d803 a aamas:Term ;
 	diz:token "i3- ba:s-is" ;
 	.
 
-aama:ID36a77983-21c1-4b87-9a6b-c93092ded55f a aamas:Term ;
+aama:ID523d1966-1da5-4b0f-b896-806c46014ad8 a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-Verb-baas-JussiveNegative ;
 	aamas:lexeme diz:lex-baas ;
@@ -1118,7 +1118,7 @@ aama:ID36a77983-21c1-4b87-9a6b-c93092ded55f a aamas:Term ;
 	diz:token "ʔŋ3- ba:s-is" ;
 	.
 
-aama:ID81a461b8-2b1b-41a9-a581-1f0bb3ef7bc9 a aamas:Term ;
+aama:IDcbdf3733-a5f4-4a24-a73a-b4270ea8d1bd a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-Verb-baas-JussiveNegative ;
 	aamas:lexeme diz:lex-baas ;
@@ -1139,7 +1139,7 @@ diz:diz-Verb-baas-JussiveNegative a aamas:Termcluster ;
 	rdfs:comment "B05t22 :: The imperative and jussive tenses form structurally distinct paradigms in the affirmative – juss:PNGProclitic + verbStem + ga;imprtv:verbStem + ŋ1 + num. In the negative both have the structure:PNGProclitic + verbStem + is. There is no polite form in the negative." 
 	.
 
-aama:ID32aa1e57-4f78-4225-a934-ff3a7ab12283 a aamas:Term ;
+aama:IDb3b5ae48-f5ec-4089-8747-6b92ab125fe4 a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-Verb-baas-JussiveNegative ;
 	aamas:lexeme diz:lex-baas ;
@@ -1152,7 +1152,7 @@ aama:ID32aa1e57-4f78-4225-a934-ff3a7ab12283 a aamas:Term ;
 	diz:token "ʔŋ2-ba:s-is" ;
 	.
 
-aama:ID1b7dd056-2574-47fc-93b6-1aee9ba0ece9 a aamas:Term ;
+aama:ID875e4186-923c-4ef6-87a5-550458505656 a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-Verb-baas-JussiveNegative ;
 	aamas:lexeme diz:lex-baas ;
@@ -1165,7 +1165,7 @@ aama:ID1b7dd056-2574-47fc-93b6-1aee9ba0ece9 a aamas:Term ;
 	diz:token "a3- ba:s-is" ;
 	.
 
-aama:ID762069a7-5b8d-4b00-ab87-26766ae844c3 a aamas:Term ;
+aama:ID83896de6-090d-4f96-9a1f-d9a4f8404a33 a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-Verb-baas-JussiveNegative ;
 	aamas:lexeme diz:lex-baas ;
@@ -1178,7 +1178,7 @@ aama:ID762069a7-5b8d-4b00-ab87-26766ae844c3 a aamas:Term ;
 	diz:token "i3- ba:s-is" ;
 	.
 
-aama:IDc7fc7a9b-23ab-4843-b185-aaa268d36350 a aamas:Term ;
+aama:ID8c5bccba-14a2-4a6f-be68-f9a95ee58449 a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-Verb-baas-JussiveNegative ;
 	aamas:lexeme diz:lex-baas ;
@@ -1191,7 +1191,7 @@ aama:IDc7fc7a9b-23ab-4843-b185-aaa268d36350 a aamas:Term ;
 	diz:token "ʔŋ3- ba:s-is" ;
 	.
 
-aama:ID89af2dd7-9310-43d6-a611-0e2bd95f18ff a aamas:Term ;
+aama:ID21372578-5158-48fd-9889-c758a7f8090a a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-Verb-baas-JussiveNegative ;
 	aamas:lexeme diz:lex-baas ;
@@ -1212,7 +1212,7 @@ diz:diz-Verb-baas-PastAffirmative a aamas:Termcluster ;
 	rdfs:comment "B05t17" 
 	.
 
-aama:IDa1cea67c-239d-436e-beb9-73f24fae8bc5 a aamas:Term ;
+aama:IDffca2d23-a3c5-4f3c-bf7d-221fa518521c a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-Verb-baas-PastAffirmative ;
 	aamas:lexeme diz:lex-baas ;
@@ -1225,7 +1225,7 @@ aama:IDa1cea67c-239d-436e-beb9-73f24fae8bc5 a aamas:Term ;
 	diz:token "ba:1s-ǝ-no1" ;
 	.
 
-aama:ID5d0da2b6-38fa-4590-9063-b696743436a3 a aamas:Term ;
+aama:ID352abaf1-64ea-46ed-a1c0-8dbdac0afffb a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-Verb-baas-PastAffirmative ;
 	aamas:lexeme diz:lex-baas ;
@@ -1238,7 +1238,7 @@ aama:ID5d0da2b6-38fa-4590-9063-b696743436a3 a aamas:Term ;
 	diz:token "ba:1s-ǝ -to1" ;
 	.
 
-aama:IDfb656180-7925-4d0c-940e-0a512da7d550 a aamas:Term ;
+aama:IDda4ad458-2081-4e22-8c0d-073a86f613b3 a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-Verb-baas-PastAffirmative ;
 	aamas:lexeme diz:lex-baas ;
@@ -1251,7 +1251,7 @@ aama:IDfb656180-7925-4d0c-940e-0a512da7d550 a aamas:Term ;
 	diz:token "ba:1s-o1" ;
 	.
 
-aama:ID1b659794-3bb0-446a-81e0-5c1b8b70b118 a aamas:Term ;
+aama:IDb810238d-225d-46d2-b407-dcab8a83aee1 a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-Verb-baas-PastAffirmative ;
 	aamas:lexeme diz:lex-baas ;
@@ -1264,7 +1264,7 @@ aama:ID1b659794-3bb0-446a-81e0-5c1b8b70b118 a aamas:Term ;
 	diz:token "ba:1s-ɛy1" ;
 	.
 
-aama:IDa611fcb1-ccd7-43fb-aa44-94af8b237c97 a aamas:Term ;
+aama:IDc20e7660-704d-4436-a280-8bc38aa07244 a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-Verb-baas-PastAffirmative ;
 	aamas:lexeme diz:lex-baas ;
@@ -1277,7 +1277,7 @@ aama:IDa611fcb1-ccd7-43fb-aa44-94af8b237c97 a aamas:Term ;
 	diz:token "ba:1s-ǝ-n13no2" ;
 	.
 
-aama:IDbe0812c0-cc47-46dc-9da6-64822bf990b9 a aamas:Term ;
+aama:ID612d42d6-965e-4579-a2c2-0375f4aa337a a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-Verb-baas-PastAffirmative ;
 	aamas:lexeme diz:lex-baas ;
@@ -1290,7 +1290,7 @@ aama:IDbe0812c0-cc47-46dc-9da6-64822bf990b9 a aamas:Term ;
 	diz:token "ba:1s-ǝ-ni2to1" ;
 	.
 
-aama:ID402ec8c2-8b31-4915-a535-611082633ff2 a aamas:Term ;
+aama:ID2cba357a-3bca-4828-9fb5-4c5b1880bea4 a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-Verb-baas-PastAffirmative ;
 	aamas:lexeme diz:lex-baas ;
@@ -1303,7 +1303,7 @@ aama:ID402ec8c2-8b31-4915-a535-611082633ff2 a aamas:Term ;
 	diz:token "ba:1s-ǝ-ni2šo1" ;
 	.
 
-aama:ID6e667373-7e60-4683-8443-e4c3250475dd a aamas:Term ;
+aama:ID27357602-45c3-4ea6-945a-fa23a3b234d0 a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-Verb-baas-PastAffirmative ;
 	aamas:lexeme diz:lex-baas ;
@@ -1316,7 +1316,7 @@ aama:ID6e667373-7e60-4683-8443-e4c3250475dd a aamas:Term ;
 	diz:token "ba:1s-ǝ-nay2ni1" ;
 	.
 
-aama:ID8c21f66c-977c-4dfb-b13e-ba441de2e1e4 a aamas:Term ;
+aama:ID77907229-0443-4a1f-9f85-58e8d9a58005 a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-Verb-baas-PastAffirmative ;
 	aamas:lexeme diz:lex-baas ;
@@ -1329,7 +1329,7 @@ aama:ID8c21f66c-977c-4dfb-b13e-ba441de2e1e4 a aamas:Term ;
 	diz:token "ba:1s-ǝ-nay2ti1" ;
 	.
 
-aama:ID61df5a27-adac-4bf1-bf23-22a879a7b216 a aamas:Term ;
+aama:ID22ea6c2f-fd9d-44aa-a3ae-1b682481695c a aamas:Term ;
 	aamas:lang aama:Dizi ;
 	aamas:memberOf diz:diz-Verb-baas-PastAffirmative ;
 	aamas:lexeme diz:lex-baas ;
@@ -1342,17 +1342,17 @@ aama:ID61df5a27-adac-4bf1-bf23-22a879a7b216 a aamas:Term ;
 	diz:token "ba:1s-ǝ-nay2ši1" ;
 	.
 
-#TERMCLUSTER: diz-Verb:morph-AuxNegSuff:
+#TERMCLUSTER: diz-morphVerb-AuxNegSuff
 
-diz:diz-Verb:morph-AuxNegSuff: a aamas:Termcluster ;
-	rdfs:label "diz-Verb:morph-AuxNegSuff:" ;
+diz:diz-morphVerb-AuxNegSuff a aamas:Termcluster ;
+	rdfs:label "diz-morphVerb-AuxNegSuff" ;
 	aamas:lang aama:Dizi ;
 	rdfs:comment "B05t10" 
 	.
 
-aama:ID11a30caf-a3ec-483b-a2c3-838b01fbba3b a aamas:Term ;
+aama:IDc0ebff2d-58ae-486e-a926-f121ac5ae4dd a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-AuxNegSuff: ;
+	aamas:memberOf diz:diz-morphVerb-AuxNegSuff ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:AuxNegSuff ;
 	diz:number diz:Singular ;
@@ -1361,9 +1361,9 @@ aama:ID11a30caf-a3ec-483b-a2c3-838b01fbba3b a aamas:Term ;
 	diz:token "-n2" ;
 	.
 
-aama:IDe2da62f9-8c6d-4625-9fee-b0e0d4f88e1d a aamas:Term ;
+aama:ID9e5205d6-3eeb-406a-b3f8-1da4df5d1232 a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-AuxNegSuff: ;
+	aamas:memberOf diz:diz-morphVerb-AuxNegSuff ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:AuxNegSuff ;
 	diz:number diz:Singular ;
@@ -1372,9 +1372,9 @@ aama:IDe2da62f9-8c6d-4625-9fee-b0e0d4f88e1d a aamas:Term ;
 	diz:token "-a2" ;
 	.
 
-aama:IDcd2bf21d-23ca-4776-90a5-711d9729b2ca a aamas:Term ;
+aama:IDd1f4fa9e-7f81-4b08-90fe-e152054abbca a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-AuxNegSuff: ;
+	aamas:memberOf diz:diz-morphVerb-AuxNegSuff ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:AuxNegSuff ;
 	diz:number diz:Singular ;
@@ -1383,9 +1383,9 @@ aama:IDcd2bf21d-23ca-4776-90a5-711d9729b2ca a aamas:Term ;
 	diz:token "-a3" ;
 	.
 
-aama:IDb70153f7-6efd-4f2f-a009-959e171f8664 a aamas:Term ;
+aama:ID147ee8bc-39b4-4d96-838a-261045fefcbd a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-AuxNegSuff: ;
+	aamas:memberOf diz:diz-morphVerb-AuxNegSuff ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:AuxNegSuff ;
 	diz:number diz:Singular ;
@@ -1394,9 +1394,9 @@ aama:IDb70153f7-6efd-4f2f-a009-959e171f8664 a aamas:Term ;
 	diz:token "-i" ;
 	.
 
-aama:IDc79cd361-61e5-47d4-a4ee-812796086e81 a aamas:Term ;
+aama:ID2d528fb3-36f3-4aef-a570-f63267f78de6 a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-AuxNegSuff: ;
+	aamas:memberOf diz:diz-morphVerb-AuxNegSuff ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:AuxNegSuff ;
 	diz:number diz:Plural ;
@@ -1405,9 +1405,9 @@ aama:IDc79cd361-61e5-47d4-a4ee-812796086e81 a aamas:Term ;
 	diz:token "-n3" ;
 	.
 
-aama:IDa28a4f34-f9b5-44ba-af4b-d407a6907eb5 a aamas:Term ;
+aama:ID160ab78f-4310-4a68-b621-1ddd8e0b8348 a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-AuxNegSuff: ;
+	aamas:memberOf diz:diz-morphVerb-AuxNegSuff ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:AuxNegSuff ;
 	diz:number diz:Plural ;
@@ -1416,9 +1416,9 @@ aama:IDa28a4f34-f9b5-44ba-af4b-d407a6907eb5 a aamas:Term ;
 	diz:token "-it3" ;
 	.
 
-aama:ID36c6d144-8f87-484d-a8a8-6e7615e7d6ec a aamas:Term ;
+aama:ID63f73c40-66da-4e3a-a126-25ea7bc69b36 a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-AuxNegSuff: ;
+	aamas:memberOf diz:diz-morphVerb-AuxNegSuff ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:AuxNegSuff ;
 	diz:number diz:Plural ;
@@ -1427,9 +1427,9 @@ aama:ID36c6d144-8f87-484d-a8a8-6e7615e7d6ec a aamas:Term ;
 	diz:token "-iš3(i)" ;
 	.
 
-aama:ID1424c8ef-6d32-4c19-a88c-98fa6a79cf56 a aamas:Term ;
+aama:ID7776e554-83b0-4a2a-a0d0-516c1336964f a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-AuxNegSuff: ;
+	aamas:memberOf diz:diz-morphVerb-AuxNegSuff ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:AuxNegSuff ;
 	diz:number diz:Dual ;
@@ -1438,9 +1438,9 @@ aama:ID1424c8ef-6d32-4c19-a88c-98fa6a79cf56 a aamas:Term ;
 	diz:token "-3n-a2" ;
 	.
 
-aama:IDd05bf3a7-e99e-4c7f-8b2f-e5fb39a8d80e a aamas:Term ;
+aama:ID75020635-badf-416f-9927-a9115fec0377 a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-AuxNegSuff: ;
+	aamas:memberOf diz:diz-morphVerb-AuxNegSuff ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:AuxNegSuff ;
 	diz:number diz:Dual ;
@@ -1449,9 +1449,9 @@ aama:IDd05bf3a7-e99e-4c7f-8b2f-e5fb39a8d80e a aamas:Term ;
 	diz:token "-i3t-a2" ;
 	.
 
-aama:ID67652a48-6c07-44f6-ba33-af87813b0dfa a aamas:Term ;
+aama:ID369b33c5-170b-4599-a7d4-ddb512d02508 a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-AuxNegSuff: ;
+	aamas:memberOf diz:diz-morphVerb-AuxNegSuff ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:AuxNegSuff ;
 	diz:number diz:Dual ;
@@ -1460,18 +1460,18 @@ aama:ID67652a48-6c07-44f6-ba33-af87813b0dfa a aamas:Term ;
 	diz:token "i3š-a2" ;
 	.
 
-#TERMCLUSTER: diz-Verb:morph-AuxNegSuff:-non-Negative
+#TERMCLUSTER: diz-morphVerb-AuxNegSuff-nan-Negative
 
-diz:diz-Verb:morph-AuxNegSuff:-non-Negative a aamas:Termcluster ;
-	rdfs:label "diz-Verb:morph-AuxNegSuff:-non-Negative" ;
+diz:diz-morphVerb-AuxNegSuff-nan-Negative a aamas:Termcluster ;
+	rdfs:label "diz-morphVerb-AuxNegSuff-nan-Negative" ;
 	aamas:lang aama:Dizi ;
 	rdfs:comment "B05t10&3.10 :: Main clause declatative negation consists of the negative auxiliary nan (var. na before 3sgm and 2sg,nɛ before suffixes beginning in –i-) with auxNegSuff,followed optionally by other sentence constituents,followed by tense-marked verb suffixed with -ti :nan + auxMNegSuff" 
 	.
 
-aama:ID80f29962-efaa-4adf-ac54-39bef108c669 a aamas:Term ;
+aama:IDa759fca2-7e6a-4ed9-a3b9-05e4d202f1ee a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-AuxNegSuff:-non-Negative ;
-	aamas:lexeme diz:lex-non ;
+	aamas:memberOf diz:diz-morphVerb-AuxNegSuff-nan-Negative ;
+	aamas:lexeme diz:lex-nan ;
 	diz:polarity diz:Negative ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:AuxNegSuff ;
@@ -1481,10 +1481,10 @@ aama:ID80f29962-efaa-4adf-ac54-39bef108c669 a aamas:Term ;
 	diz:token "nan-ǝ-n2" ;
 	.
 
-aama:ID4b4a3adb-3760-45df-9eeb-aef564cd568e a aamas:Term ;
+aama:IDad2927eb-5943-443c-8544-e28cb1612a69 a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-AuxNegSuff:-non-Negative ;
-	aamas:lexeme diz:lex-non ;
+	aamas:memberOf diz:diz-morphVerb-AuxNegSuff-nan-Negative ;
+	aamas:lexeme diz:lex-nan ;
 	diz:polarity diz:Negative ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:AuxNegSuff ;
@@ -1494,10 +1494,10 @@ aama:ID4b4a3adb-3760-45df-9eeb-aef564cd568e a aamas:Term ;
 	diz:token "nan-a2" ;
 	.
 
-aama:ID3a0a8585-e92b-4010-8b53-f81376cf9261 a aamas:Term ;
+aama:ID27f0a0d9-4319-427e-a51a-c6139045db2d a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-AuxNegSuff:-non-Negative ;
-	aamas:lexeme diz:lex-non ;
+	aamas:memberOf diz:diz-morphVerb-AuxNegSuff-nan-Negative ;
+	aamas:lexeme diz:lex-nan ;
 	diz:polarity diz:Negative ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:AuxNegSuff ;
@@ -1507,10 +1507,10 @@ aama:ID3a0a8585-e92b-4010-8b53-f81376cf9261 a aamas:Term ;
 	diz:token "nan-ǝ-n3" ;
 	.
 
-aama:IDc4a05076-bd63-4aa4-9a22-1dc2947b555c a aamas:Term ;
+aama:ID9a690304-e0b1-4c5e-ab9f-be9f76b40e2b a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-AuxNegSuff:-non-Negative ;
-	aamas:lexeme diz:lex-non ;
+	aamas:memberOf diz:diz-morphVerb-AuxNegSuff-nan-Negative ;
+	aamas:lexeme diz:lex-nan ;
 	diz:polarity diz:Negative ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:AuxNegSuff ;
@@ -1520,10 +1520,10 @@ aama:IDc4a05076-bd63-4aa4-9a22-1dc2947b555c a aamas:Term ;
 	diz:token "nan-it3" ;
 	.
 
-aama:ID963d476a-3148-4cd5-b5ac-5ba113e50340 a aamas:Term ;
+aama:ID45387b87-637c-4a55-a356-e64596c249a3 a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-AuxNegSuff:-non-Negative ;
-	aamas:lexeme diz:lex-non ;
+	aamas:memberOf diz:diz-morphVerb-AuxNegSuff-nan-Negative ;
+	aamas:lexeme diz:lex-nan ;
 	diz:polarity diz:Negative ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:AuxNegSuff ;
@@ -1533,10 +1533,10 @@ aama:ID963d476a-3148-4cd5-b5ac-5ba113e50340 a aamas:Term ;
 	diz:token "nan-iš3(i)" ;
 	.
 
-aama:IDdfda0bea-5bae-415a-877f-b8ca31062777 a aamas:Term ;
+aama:ID8d5c57f7-ae7b-4329-9cc1-478afd1fbc40 a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-AuxNegSuff:-non-Negative ;
-	aamas:lexeme diz:lex-non ;
+	aamas:memberOf diz:diz-morphVerb-AuxNegSuff-nan-Negative ;
+	aamas:lexeme diz:lex-nan ;
 	diz:polarity diz:Negative ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:AuxNegSuff ;
@@ -1546,10 +1546,10 @@ aama:IDdfda0bea-5bae-415a-877f-b8ca31062777 a aamas:Term ;
 	diz:token "nan-ǝ-3n-a2" ;
 	.
 
-aama:ID956f343c-a110-44cc-ab4f-d5c72daeb10b a aamas:Term ;
+aama:ID58866394-3a66-4e67-b4fc-d0c5b07cffdd a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-AuxNegSuff:-non-Negative ;
-	aamas:lexeme diz:lex-non ;
+	aamas:memberOf diz:diz-morphVerb-AuxNegSuff-nan-Negative ;
+	aamas:lexeme diz:lex-nan ;
 	diz:polarity diz:Negative ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:AuxNegSuff ;
@@ -1559,10 +1559,10 @@ aama:ID956f343c-a110-44cc-ab4f-d5c72daeb10b a aamas:Term ;
 	diz:token "nan-i3t-a2" ;
 	.
 
-aama:ID9d4e6d4c-5c0d-4b22-b0a1-98bb48fafe9b a aamas:Term ;
+aama:IDb27bbca9-f89e-4465-b038-171c7bff69b1 a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-AuxNegSuff:-non-Negative ;
-	aamas:lexeme diz:lex-non ;
+	aamas:memberOf diz:diz-morphVerb-AuxNegSuff-nan-Negative ;
+	aamas:lexeme diz:lex-nan ;
 	diz:polarity diz:Negative ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:AuxNegSuff ;
@@ -1572,10 +1572,10 @@ aama:ID9d4e6d4c-5c0d-4b22-b0a1-98bb48fafe9b a aamas:Term ;
 	diz:token "nan-i3š-a2" ;
 	.
 
-aama:ID8a16cab7-4b08-4654-8648-8aa71dbb76a0 a aamas:Term ;
+aama:IDf8bf1823-e609-4465-96d2-8b9b0580ca31 a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-AuxNegSuff:-non-Negative ;
-	aamas:lexeme diz:lex-non ;
+	aamas:memberOf diz:diz-morphVerb-AuxNegSuff-nan-Negative ;
+	aamas:lexeme diz:lex-nan ;
 	diz:polarity diz:Negative ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:AuxNegSuff ;
@@ -1585,10 +1585,10 @@ aama:ID8a16cab7-4b08-4654-8648-8aa71dbb76a0 a aamas:Term ;
 	diz:token "nan-i" ;
 	.
 
-aama:IDd9c456cc-39ab-47de-95c1-5e7a3bcf7ded a aamas:Term ;
+aama:ID6cc2b5cd-694b-44db-890e-ea2b01ae8392 a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-AuxNegSuff:-non-Negative ;
-	aamas:lexeme diz:lex-non ;
+	aamas:memberOf diz:diz-morphVerb-AuxNegSuff-nan-Negative ;
+	aamas:lexeme diz:lex-nan ;
 	diz:polarity diz:Negative ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:AuxNegSuff ;
@@ -1598,17 +1598,17 @@ aama:IDd9c456cc-39ab-47de-95c1-5e7a3bcf7ded a aamas:Term ;
 	diz:token "nan-a3" ;
 	.
 
-#TERMCLUSTER: diz-Verb:morph-DervStem:
+#TERMCLUSTER: diz-morphVerb-DervStem
 
-diz:diz-Verb:morph-DervStem: a aamas:Termcluster ;
-	rdfs:label "diz-Verb:morph-DervStem:" ;
+diz:diz-morphVerb-DervStem a aamas:Termcluster ;
+	rdfs:label "diz-morphVerb-DervStem" ;
 	aamas:lang aama:Dizi ;
 	rdfs:comment "B05s3.8.2 :: The dervStem suffixes are added directly to the lexical root,before the tense-aspect markers. Template: base + baseGloss + derv + dervGloss" 
 	.
 
-aama:ID349fdf2f-467e-46e5-863f-fbf25622305e a aamas:Term ;
+aama:IDebebb464-a243-459b-a139-1efbf1878a0e a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-DervStem: ;
+	aamas:memberOf diz:diz-morphVerb-DervStem ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:DervStem ;
 	diz:derivedStem diz:Causative ;
@@ -1616,9 +1616,9 @@ aama:ID349fdf2f-467e-46e5-863f-fbf25622305e a aamas:Term ;
 	diz:token "-s-" ;
 	.
 
-aama:ID39fbc7d3-84da-4155-8571-782f1acffbb6 a aamas:Term ;
+aama:ID44dde1a7-141c-45fa-aa99-baeb245748a2 a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-DervStem: ;
+	aamas:memberOf diz:diz-morphVerb-DervStem ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:DervStem ;
 	diz:derivedStem diz:CausativeReciprocal ;
@@ -1626,9 +1626,9 @@ aama:ID39fbc7d3-84da-4155-8571-782f1acffbb6 a aamas:Term ;
 	diz:token "-s-ǝ-sǝm-" ;
 	.
 
-aama:ID5d17302e-aecd-471b-a190-6175fc4fc3f8 a aamas:Term ;
+aama:IDe2f223fc-d62e-4643-87f6-90691c9863e2 a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-DervStem: ;
+	aamas:memberOf diz:diz-morphVerb-DervStem ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:DervStem ;
 	diz:derivedStem diz:Passive ;
@@ -1636,9 +1636,9 @@ aama:ID5d17302e-aecd-471b-a190-6175fc4fc3f8 a aamas:Term ;
 	diz:token "-dn-" ;
 	.
 
-aama:ID57916882-d47f-440f-9ea4-c8c1ea54d2f6 a aamas:Term ;
+aama:ID22371051-7258-4b16-8c0c-3148e5880f99 a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-DervStem: ;
+	aamas:memberOf diz:diz-morphVerb-DervStem ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:DervStem ;
 	diz:derivedStem diz:Reciprocal ;
@@ -1646,17 +1646,17 @@ aama:ID57916882-d47f-440f-9ea4-c8c1ea54d2f6 a aamas:Term ;
 	diz:token "-sǝm-" ;
 	.
 
-#TERMCLUSTER: diz-Verb:morph-NonMainClauseForms:
+#TERMCLUSTER: diz-morphVerb-NonMainClauseForms
 
-diz:diz-Verb:morph-NonMainClauseForms: a aamas:Termcluster ;
-	rdfs:label "diz-Verb:morph-NonMainClauseForms:" ;
+diz:diz-morphVerb-NonMainClauseForms a aamas:Termcluster ;
+	rdfs:label "diz-morphVerb-NonMainClauseForms" ;
 	aamas:lang aama:Dizi ;
 	rdfs:comment "B05s3.8.8-10 :: Dizi has a large number of non-mainClause morphological structures,which have in common the presence of a suffix (including the zero suffix –Ø) where a finite verb would have subject markers. (Note that some subordinate forms have the PNGProclitics.)" 
 	.
 
-aama:IDf49120c4-46bc-4653-8fcf-6e68e2935fbb a aamas:Term ;
+aama:IDf0f66881-780d-438b-aef2-a4e60abb65c4 a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-NonMainClauseForms: ;
+	aamas:memberOf diz:diz-morphVerb-NonMainClauseForms ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:NonMainClauseForms ;
 	diz:nonMainForm diz:Conditional ;
@@ -1664,9 +1664,9 @@ aama:IDf49120c4-46bc-4653-8fcf-6e68e2935fbb a aamas:Term ;
 	diz:token "PNGClitic+verbStem+nt" ;
 	.
 
-aama:IDd30d223f-7732-4523-86aa-d89f323b3e1b a aamas:Term ;
+aama:ID4220aff1-dc4d-4434-ab54-ca7a3696698b a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-NonMainClauseForms: ;
+	aamas:memberOf diz:diz-morphVerb-NonMainClauseForms ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:NonMainClauseForms ;
 	diz:nonMainForm diz:Coordinate ;
@@ -1674,9 +1674,9 @@ aama:IDd30d223f-7732-4523-86aa-d89f323b3e1b a aamas:Term ;
 	diz:token "verbStem+ta … verbStem+tense+ga" ;
 	.
 
-aama:ID370f58b3-21a9-401c-812b-f0e78abc54f6 a aamas:Term ;
+aama:IDb01c991f-3d7f-49fb-a525-85d1f1b993a1 a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-NonMainClauseForms: ;
+	aamas:memberOf diz:diz-morphVerb-NonMainClauseForms ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:NonMainClauseForms ;
 	diz:nonMainForm diz:DiffSubj ;
@@ -1684,9 +1684,9 @@ aama:ID370f58b3-21a9-401c-812b-f0e78abc54f6 a aamas:Term ;
 	diz:token "(PNGClitic)+verbStem+tense+n" ;
 	.
 
-aama:IDc49e2125-1f0b-4095-ae0e-f289ca48e4d1 a aamas:Term ;
+aama:ID6d001603-b87b-4a59-99f3-b5b5dfdbec53 a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-NonMainClauseForms: ;
+	aamas:memberOf diz:diz-morphVerb-NonMainClauseForms ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:NonMainClauseForms ;
 	diz:nonMainForm diz:Gerund ;
@@ -1694,9 +1694,9 @@ aama:IDc49e2125-1f0b-4095-ae0e-f289ca48e4d1 a aamas:Term ;
 	diz:token "PNGClitic+verbStem+z" ;
 	.
 
-aama:IDc69a68de-6cb8-4ad6-aa88-fd6167718e4f a aamas:Term ;
+aama:ID70bc9161-1e25-4ed7-b181-7e269ca67223 a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-NonMainClauseForms: ;
+	aamas:memberOf diz:diz-morphVerb-NonMainClauseForms ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:NonMainClauseForms ;
 	diz:nonMainForm diz:Infinitive ;
@@ -1704,9 +1704,9 @@ aama:IDc69a68de-6cb8-4ad6-aa88-fd6167718e4f a aamas:Term ;
 	diz:token "verbStem+Ø" ;
 	.
 
-aama:IDe3f096c6-49f0-4fbb-8b2b-84ee23ccd9b6 a aamas:Term ;
+aama:IDabc24b21-dd99-4138-a3bf-368186d3722f a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-NonMainClauseForms: ;
+	aamas:memberOf diz:diz-morphVerb-NonMainClauseForms ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:NonMainClauseForms ;
 	diz:nonMainForm diz:Infinitive ;
@@ -1714,9 +1714,9 @@ aama:IDe3f096c6-49f0-4fbb-8b2b-84ee23ccd9b6 a aamas:Term ;
 	diz:token "verbStem+kŋ" ;
 	.
 
-aama:ID49e69a7d-6b16-42ea-90a5-a91b17424346 a aamas:Term ;
+aama:IDa53f8986-a19d-46e7-aebd-6b5a8a557249 a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-NonMainClauseForms: ;
+	aamas:memberOf diz:diz-morphVerb-NonMainClauseForms ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:NonMainClauseForms ;
 	diz:nonMainForm diz:RelativeCovert ;
@@ -1724,9 +1724,9 @@ aama:ID49e69a7d-6b16-42ea-90a5-a91b17424346 a aamas:Term ;
 	diz:token "verbStem+tense+Ø" ;
 	.
 
-aama:IDf7a5a1fd-dc68-45dd-9e6e-de055c0e3216 a aamas:Term ;
+aama:ID394ea0a8-be7c-4389-b181-0aac5d2740db a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-NonMainClauseForms: ;
+	aamas:memberOf diz:diz-morphVerb-NonMainClauseForms ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:NonMainClauseForms ;
 	diz:nonMainForm diz:RelativeOvert ;
@@ -1734,9 +1734,9 @@ aama:IDf7a5a1fd-dc68-45dd-9e6e-de055c0e3216 a aamas:Term ;
 	diz:token "verbStem+tense+da" ;
 	.
 
-aama:ID05e163bb-55fd-41bb-bf59-4c75e5b40bd0 a aamas:Term ;
+aama:ID798c4a7d-fb1d-471b-89e4-b4ac09041287 a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-NonMainClauseForms: ;
+	aamas:memberOf diz:diz-morphVerb-NonMainClauseForms ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:NonMainClauseForms ;
 	diz:nonMainForm diz:SameSubjOvlp ;
@@ -1744,9 +1744,9 @@ aama:ID05e163bb-55fd-41bb-bf59-4c75e5b40bd0 a aamas:Term ;
 	diz:token "(PNGClitic)+verbStem+tense+Ø" ;
 	.
 
-aama:ID8ef5279b-a22e-4cff-aeed-0877f19fb687 a aamas:Term ;
+aama:ID8a7a7131-0cbe-4c7a-864e-aa42a977d13f a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-NonMainClauseForms: ;
+	aamas:memberOf diz:diz-morphVerb-NonMainClauseForms ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:NonMainClauseForms ;
 	diz:nonMainForm diz:SameSubjSucc ;
@@ -1754,9 +1754,9 @@ aama:ID8ef5279b-a22e-4cff-aeed-0877f19fb687 a aamas:Term ;
 	diz:token "(PNGClitic)+verbStem+tense+tɛy" ;
 	.
 
-aama:ID3fc730f5-90b7-4ac7-9cf5-01da564537ee a aamas:Term ;
+aama:ID5fc17c3a-36f9-4d92-9e07-caca887ac244 a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-NonMainClauseForms: ;
+	aamas:memberOf diz:diz-morphVerb-NonMainClauseForms ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:NonMainClauseForms ;
 	diz:nonMainForm diz:Temporal ;
@@ -1764,17 +1764,17 @@ aama:ID3fc730f5-90b7-4ac7-9cf5-01da564537ee a aamas:Term ;
 	diz:token "PNGClitic+verbStem+kǝst" ;
 	.
 
-#TERMCLUSTER: diz-Verb:morph-PngProclitic:
+#TERMCLUSTER: diz-morphVerb-PngProclitic
 
-diz:diz-Verb:morph-PngProclitic: a aamas:Termcluster ;
-	rdfs:label "diz-Verb:morph-PngProclitic:" ;
+diz:diz-morphVerb-PngProclitic a aamas:Termcluster ;
+	rdfs:label "diz-morphVerb-PngProclitic" ;
 	aamas:lang aama:Dizi ;
 	rdfs:comment "B05t10" 
 	.
 
-aama:ID9a073b7a-f5be-460c-842a-cb0ed77041cc a aamas:Term ;
+aama:IDc5ea967d-eae9-4f19-9f8a-4b33d2030114 a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-PngProclitic: ;
+	aamas:memberOf diz:diz-morphVerb-PngProclitic ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:PngProclitic ;
 	diz:number diz:Singular ;
@@ -1783,9 +1783,9 @@ aama:ID9a073b7a-f5be-460c-842a-cb0ed77041cc a aamas:Term ;
 	diz:token "ʔŋ2-" ;
 	.
 
-aama:ID1725b319-e557-4a64-aa26-bdb4c768cf23 a aamas:Term ;
+aama:IDf9d17f9c-bc53-4888-8680-bad4d14d46a3 a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-PngProclitic: ;
+	aamas:memberOf diz:diz-morphVerb-PngProclitic ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:PngProclitic ;
 	diz:number diz:Singular ;
@@ -1794,9 +1794,9 @@ aama:ID1725b319-e557-4a64-aa26-bdb4c768cf23 a aamas:Term ;
 	diz:token "a2-" ;
 	.
 
-aama:ID9866baa2-9740-4295-a3af-dfecdc2d20d4 a aamas:Term ;
+aama:IDf6319888-397e-4ff1-97c9-8b953d7ca48c a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-PngProclitic: ;
+	aamas:memberOf diz:diz-morphVerb-PngProclitic ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:PngProclitic ;
 	diz:number diz:Singular ;
@@ -1805,9 +1805,9 @@ aama:ID9866baa2-9740-4295-a3af-dfecdc2d20d4 a aamas:Term ;
 	diz:token "a3-" ;
 	.
 
-aama:ID6931f9db-6000-44e7-8a41-767161bc1990 a aamas:Term ;
+aama:ID1ccd2a45-50bc-4fbb-bdd1-a88334ef6851 a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-PngProclitic: ;
+	aamas:memberOf diz:diz-morphVerb-PngProclitic ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:PngProclitic ;
 	diz:number diz:Singular ;
@@ -1816,9 +1816,9 @@ aama:ID6931f9db-6000-44e7-8a41-767161bc1990 a aamas:Term ;
 	diz:token "i3-" ;
 	.
 
-aama:ID6b1ca32d-4ae3-4bef-83f8-ea152feb6e8b a aamas:Term ;
+aama:ID47bc01d5-0914-4b6c-8ae8-be89a98212cd a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-PngProclitic: ;
+	aamas:memberOf diz:diz-morphVerb-PngProclitic ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:PngProclitic ;
 	diz:number diz:Plural ;
@@ -1827,9 +1827,9 @@ aama:ID6b1ca32d-4ae3-4bef-83f8-ea152feb6e8b a aamas:Term ;
 	diz:token "ʔŋ3-" ;
 	.
 
-aama:IDd91e4ecf-2bb4-4bcd-8f06-b6570149377d a aamas:Term ;
+aama:IDae2ccd1d-fb17-4ed7-8cb8-1661d3e66f5d a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-PngProclitic: ;
+	aamas:memberOf diz:diz-morphVerb-PngProclitic ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:PngProclitic ;
 	diz:number diz:Plural ;
@@ -1838,9 +1838,9 @@ aama:IDd91e4ecf-2bb4-4bcd-8f06-b6570149377d a aamas:Term ;
 	diz:token "it3-" ;
 	.
 
-aama:ID61a0c1e6-ef4c-441f-b853-d3d79bca6ae3 a aamas:Term ;
+aama:IDd6d3fd5a-822b-4d19-a118-b98834e9100b a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-PngProclitic: ;
+	aamas:memberOf diz:diz-morphVerb-PngProclitic ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:PngProclitic ;
 	diz:number diz:Plural ;
@@ -1849,9 +1849,9 @@ aama:ID61a0c1e6-ef4c-441f-b853-d3d79bca6ae3 a aamas:Term ;
 	diz:token "iš3-" ;
 	.
 
-aama:ID2db33af9-5f96-4fd9-a810-7e15f68ead6f a aamas:Term ;
+aama:IDb1f186d5-edb7-4755-9d09-59da0e95b859 a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-PngProclitic: ;
+	aamas:memberOf diz:diz-morphVerb-PngProclitic ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:PngProclitic ;
 	diz:number diz:Dual ;
@@ -1860,9 +1860,9 @@ aama:ID2db33af9-5f96-4fd9-a810-7e15f68ead6f a aamas:Term ;
 	diz:token "ʔŋ3-a2-" ;
 	.
 
-aama:ID16d51816-af34-4c41-b473-e454639a0aa0 a aamas:Term ;
+aama:IDdc1dd4b4-db35-41b5-873a-ba8e5a469db5 a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-PngProclitic: ;
+	aamas:memberOf diz:diz-morphVerb-PngProclitic ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:PngProclitic ;
 	diz:number diz:Dual ;
@@ -1871,9 +1871,9 @@ aama:ID16d51816-af34-4c41-b473-e454639a0aa0 a aamas:Term ;
 	diz:token "i3t-a2-" ;
 	.
 
-aama:IDba202e06-53a1-44bb-b6db-1a868d59451a a aamas:Term ;
+aama:ID68e2ca46-db18-46d1-be8a-5324ad42279f a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-PngProclitic: ;
+	aamas:memberOf diz:diz-morphVerb-PngProclitic ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:PngProclitic ;
 	diz:number diz:Dual ;
@@ -1882,17 +1882,17 @@ aama:IDba202e06-53a1-44bb-b6db-1a868d59451a a aamas:Term ;
 	diz:token "i3š-a2-" ;
 	.
 
-#TERMCLUSTER: diz-Verb:morph-SubjSuff:
+#TERMCLUSTER: diz-morphVerb-SubjSuff
 
-diz:diz-Verb:morph-SubjSuff: a aamas:Termcluster ;
-	rdfs:label "diz-Verb:morph-SubjSuff:" ;
+diz:diz-morphVerb-SubjSuff a aamas:Termcluster ;
+	rdfs:label "diz-morphVerb-SubjSuff" ;
 	aamas:lang aama:Dizi ;
 	rdfs:comment "B05t10&17" 
 	.
 
-aama:ID3e9455f5-1b0b-4cd5-8c8f-68a1cd103551 a aamas:Term ;
+aama:IDccb9aeef-ccf7-4a0c-b7b9-644129677d35 a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-SubjSuff: ;
+	aamas:memberOf diz:diz-morphVerb-SubjSuff ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:SubjSuff ;
 	diz:number diz:Singular ;
@@ -1901,9 +1901,9 @@ aama:ID3e9455f5-1b0b-4cd5-8c8f-68a1cd103551 a aamas:Term ;
 	diz:token "-no1" ;
 	.
 
-aama:ID3103007c-7794-4375-ad5a-eafda86c2563 a aamas:Term ;
+aama:ID1e208841-2795-456f-8e42-3b477a80abab a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-SubjSuff: ;
+	aamas:memberOf diz:diz-morphVerb-SubjSuff ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:SubjSuff ;
 	diz:number diz:Singular ;
@@ -1912,9 +1912,9 @@ aama:ID3103007c-7794-4375-ad5a-eafda86c2563 a aamas:Term ;
 	diz:token "-to1" ;
 	.
 
-aama:ID265a33f9-0455-4869-aa35-e257fbeec74e a aamas:Term ;
+aama:ID5f53b89d-0b52-4c61-98cc-14531a5bfc26 a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-SubjSuff: ;
+	aamas:memberOf diz:diz-morphVerb-SubjSuff ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:SubjSuff ;
 	diz:number diz:Singular ;
@@ -1923,9 +1923,9 @@ aama:ID265a33f9-0455-4869-aa35-e257fbeec74e a aamas:Term ;
 	diz:token "-go1 / -zo1 / -o" ;
 	.
 
-aama:IDa4a86ae4-55f1-47bf-9f96-bb1262453484 a aamas:Term ;
+aama:IDbd17fb8c-9bd4-4433-ad4f-567f945980d3 a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-SubjSuff: ;
+	aamas:memberOf diz:diz-morphVerb-SubjSuff ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:SubjSuff ;
 	diz:number diz:Singular ;
@@ -1934,9 +1934,9 @@ aama:IDa4a86ae4-55f1-47bf-9f96-bb1262453484 a aamas:Term ;
 	diz:token "-ge1 / -gɛy1 / -ze1 / -zɛy1 / -e1 / -ɛy1" ;
 	.
 
-aama:IDc0492576-839c-47f7-8ad7-895ebfefcb68 a aamas:Term ;
+aama:ID594e1009-dfaa-4856-bced-feaf9f5b6643 a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-SubjSuff: ;
+	aamas:memberOf diz:diz-morphVerb-SubjSuff ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:SubjSuff ;
 	diz:number diz:Plural ;
@@ -1945,9 +1945,9 @@ aama:IDc0492576-839c-47f7-8ad7-895ebfefcb68 a aamas:Term ;
 	diz:token "-n13no2" ;
 	.
 
-aama:ID2ba19085-c3aa-4858-b47e-8c4930bcdc06 a aamas:Term ;
+aama:IDaa99740f-d5ab-4bb2-9d99-3bdd46cff83e a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-SubjSuff: ;
+	aamas:memberOf diz:diz-morphVerb-SubjSuff ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:SubjSuff ;
 	diz:number diz:Plural ;
@@ -1956,9 +1956,9 @@ aama:ID2ba19085-c3aa-4858-b47e-8c4930bcdc06 a aamas:Term ;
 	diz:token "-ni2to1" ;
 	.
 
-aama:IDd26471c0-814e-4222-9f64-4f4f2f0d70a8 a aamas:Term ;
+aama:IDc4b87242-29bb-4b35-8028-95f1475c3cdd a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-SubjSuff: ;
+	aamas:memberOf diz:diz-morphVerb-SubjSuff ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:SubjSuff ;
 	diz:number diz:Plural ;
@@ -1967,9 +1967,9 @@ aama:IDd26471c0-814e-4222-9f64-4f4f2f0d70a8 a aamas:Term ;
 	diz:token "-ni2šo1 / -ni2ša1 / -ni2ši1 / -šo1" ;
 	.
 
-aama:IDcaf877a9-e634-49a9-9631-d538d6baf8fe a aamas:Term ;
+aama:ID3cd25c73-4ba6-4d20-9819-5d3ced08b71d a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-SubjSuff: ;
+	aamas:memberOf diz:diz-morphVerb-SubjSuff ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:SubjSuff ;
 	diz:number diz:Dual ;
@@ -1978,9 +1978,9 @@ aama:IDcaf877a9-e634-49a9-9631-d538d6baf8fe a aamas:Term ;
 	diz:token "-nay2ni1" ;
 	.
 
-aama:ID78f8af49-f58d-4a05-870a-7f770f4cd54d a aamas:Term ;
+aama:ID6435f475-ccc4-4770-8e95-80daee9f1537 a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-SubjSuff: ;
+	aamas:memberOf diz:diz-morphVerb-SubjSuff ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:SubjSuff ;
 	diz:number diz:Dual ;
@@ -1989,9 +1989,9 @@ aama:ID78f8af49-f58d-4a05-870a-7f770f4cd54d a aamas:Term ;
 	diz:token "-nay2ti1" ;
 	.
 
-aama:ID45c9b42d-2b1a-4230-977a-f796c63c1f44 a aamas:Term ;
+aama:IDfbd76ec8-70c3-4a50-b5e6-01e98f74a41f a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-SubjSuff: ;
+	aamas:memberOf diz:diz-morphVerb-SubjSuff ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:SubjSuff ;
 	diz:number diz:Dual ;
@@ -2000,17 +2000,17 @@ aama:ID45c9b42d-2b1a-4230-977a-f796c63c1f44 a aamas:Term ;
 	diz:token "-nay2ši1" ;
 	.
 
-#TERMCLUSTER: diz-Verb:morph-TenseAspSuff:
+#TERMCLUSTER: diz-morphVerb-TenseAspSuff
 
-diz:diz-Verb:morph-TenseAspSuff: a aamas:Termcluster ;
-	rdfs:label "diz-Verb:morph-TenseAspSuff:" ;
+diz:diz-morphVerb-TenseAspSuff a aamas:Termcluster ;
+	rdfs:label "diz-morphVerb-TenseAspSuff" ;
 	aamas:lang aama:Dizi ;
 	rdfs:comment "B05t19 :: Yes/no questions are formed:PNGProclitic[Table 10]+ verbStem + tense + interr (vs. non-interrog:verbStem + tense + subjSuff). Examples:3.8.6 (160)-(164). Template: affVP + interrVP + affTrans + interrTrans." 
 	.
 
-aama:ID4478a2de-887e-4be1-a642-bcbe9e51df77 a aamas:Term ;
+aama:IDd0263d73-9ab4-4210-8090-1f6d1059108b a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-TenseAspSuff: ;
+	aamas:memberOf diz:diz-morphVerb-TenseAspSuff ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:TenseAspSuff ;
 	diz:tam diz:Future ;
@@ -2018,9 +2018,9 @@ aama:ID4478a2de-887e-4be1-a642-bcbe9e51df77 a aamas:Term ;
 	diz:token "-i" ;
 	.
 
-aama:ID09236f96-a916-4d2d-bae8-078a37f7f6a9 a aamas:Term ;
+aama:ID145c2dac-9f4e-4494-a43c-626bec979a58 a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-TenseAspSuff: ;
+	aamas:memberOf diz:diz-morphVerb-TenseAspSuff ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:TenseAspSuff ;
 	diz:tam diz:Imperfective ;
@@ -2028,19 +2028,19 @@ aama:ID09236f96-a916-4d2d-bae8-078a37f7f6a9 a aamas:Term ;
 	diz:token "-d" ;
 	.
 
-aama:ID9b6c2509-dd47-4da3-8fc0-d81a038541e5 a aamas:Term ;
+aama:ID32f15c20-58fd-443b-be33-d56d8e7743ac a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-TenseAspSuff: ;
+	aamas:memberOf diz:diz-morphVerb-TenseAspSuff ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:TenseAspSuff ;
 	diz:tam diz:Past ;
 	diz:token-note-template "ho:-s-Ø-e + i-ho:-s-ŋ + she helped + did she help?" ;
-	diz:token "⊤" ;
+	diz:token "-e" ;
 	.
 
-aama:ID6528988f-29ed-4861-9758-54aef1e64eff a aamas:Term ;
+aama:IDa61f048a-5542-4569-a20d-428885d44fe5 a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-TenseAspSuff: ;
+	aamas:memberOf diz:diz-morphVerb-TenseAspSuff ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:TenseAspSuff ;
 	diz:tam diz:Perfect ;
@@ -2048,9 +2048,9 @@ aama:ID6528988f-29ed-4861-9758-54aef1e64eff a aamas:Term ;
 	diz:token "-1kŋ1" ;
 	.
 
-aama:ID187ec464-165d-4264-8bf0-73674d50cab2 a aamas:Term ;
+aama:IDd01f3dfc-f02b-4da7-9b72-6660bdc79cb7 a aamas:Term ;
 	aamas:lang aama:Dizi ;
-	aamas:memberOf diz:diz-Verb:morph-TenseAspSuff: ;
+	aamas:memberOf diz:diz-morphVerb-TenseAspSuff ;
 	diz:pos diz:Verb ;
 	diz:morphClass diz:TenseAspSuff ;
 	diz:tam diz:Present ;

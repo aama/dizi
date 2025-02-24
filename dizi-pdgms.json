@@ -1,8 +1,13 @@
 {
   "lang": "dizi",
-  "subfamily": "Northern Omotic Maji",
+  "subfamily": "omotic north maji",
   "lgpref": "diz",
   "datasource": "Beachy, Marvin Dean. 2005. An Overview of Central Dizin Phonology and Morphology. MA Thesis. University of Texas at Austin. [B05]",
+  "transcription": { 
+    "Consonants": {
+      "general": "IPA"},
+    "Vowels": "i ɨ e ε a o u / i: e: a: o: u:",
+    "Tone": "'a1/a' low; 'a2' medium; 'a3' high"},
   "datasourceNotes": "",
   "geodemoURL": "http://www.ethnologue.com/language/mdx",
   "geodemoTXT": "Varieties and subdialects of the Omotic language Dizi are spoken in Ethiopia, ZZSouthern Nations, Nationalities, and Peoples’ region: Bench-Maji zoneZZ; approx. 33,900 speakers.",
@@ -30,7 +35,7 @@
   ],
   "lexeme": [
     "baas",
-    "non"
+    "nan"
   ],
   "morphClass": [
     "AuxNegSuff",
@@ -86,12 +91,7 @@
   ]
 },
   "lexemes": {
-  "baasl": {
-    "pos": "Verb",
-    "lemma": "ba:sl-",
-    "gloss": "want"
-  },
-  "baasl-2": {
+  "baas": {
     "pos": "Verb",
     "lemma": "ba:s-",
     "gloss": "want"
@@ -103,7 +103,7 @@
     "derivedStem": "Causative"
   },
   "kes": {
-    "pos": "Verb",
+    "pos": "Verb", 
     "lemma": "kes-",
     "gloss": "pay"
   },
@@ -116,6 +116,11 @@
     "pos": "Verb",
     "lemma": "mam-",
     "gloss": "be prepared"
+  },
+  "nan": {
+    "pos": "Verb",
+    "lemma": "nan-",
+    "gloss": "negative auxiliary"
   },
   "tus": {
     "pos": "Verb",
@@ -207,7 +212,7 @@
   },
   {
     "label": "diz-Verb-baas-ImperativeNegative",
-    "note": "B05t22 :: The imperative and jussive tenses form structurally distinct paradigms in the affirmative – juss:PNGProclitic + verbStem + ga;imprtv:verbStem + ŋ1 + num. In the negative both have the structure:PNGProclitic + verbStem + is. There is no polite form in the negative.",
+    "note": "B05t22 :: The imperative and jussive tenses form structurally distinct paradigms in the affirmative – juss:PNGProclitic + verbStem + ga;imprtv:verbStem + ŋ1 + num. In the negative both have the structure:PNGProclitic + verbStem + is. There is no poszxlite form in the negative.",
     "common": {
       "lexeme": "baas",
       "polarity": "Negative",
@@ -313,7 +318,7 @@
     ]
   },
   {
-    "label": "diz-Verb:morph-AuxNegSuff:",
+    "label": "diz-morphVerb-AuxNegSuff",
     "note": "B05t10",
     "common": {
       "pos": "Verb",
@@ -334,10 +339,10 @@
     ]
   },
   {
-    "label": "diz-Verb:morph-AuxNegSuff:-non-Negative",
+    "label": "diz-morphVerb-AuxNegSuff-nan-Negative",
     "note": "B05t10&3.10 :: Main clause declatative negation consists of the negative auxiliary nan (var. na before 3sgm and 2sg,nɛ before suffixes beginning in –i-) with auxNegSuff,followed optionally by other sentence constituents,followed by tense-marked verb suffixed with -ti :nan + auxMNegSuff",
     "common": {
-      "lexeme": "non",
+      "lexeme": "nan",
       "polarity": "Negative",
       "pos": "Verb",
       "morphClass": "AuxNegSuff"
@@ -357,7 +362,7 @@
     ]
   },
   {
-    "label": "diz-Verb:morph-DervStem:",
+    "label": "diz-morphVerb-DervStem",
     "note": "B05s3.8.2 :: The dervStem suffixes are added directly to the lexical root,before the tense-aspect markers. Template: base + baseGloss + derv + dervGloss",
     "common": {
       "pos": "Verb",
@@ -372,7 +377,7 @@
     ]
   },
   {
-    "label": "diz-Verb:morph-NonMainClauseForms:",
+    "label": "diz-morphVerb-NonMainClauseForms",
     "note": "B05s3.8.8-10 :: Dizi has a large number of non-mainClause morphological structures,which have in common the presence of a suffix (including the zero suffix –Ø) where a finite verb would have subject markers. (Note that some subordinate forms have the PNGProclitics.)",
     "common": {
       "pos": "Verb",
@@ -394,7 +399,7 @@
     ]
   },
   {
-    "label": "diz-Verb:morph-PngProclitic:",
+    "label": "diz-morphVerb-PngProclitic",
     "note": "B05t10",
     "common": {
       "pos": "Verb",
@@ -415,7 +420,7 @@
     ]
   },
   {
-    "label": "diz-Verb:morph-SubjSuff:",
+    "label": "diz-morphVerb-SubjSuff",
     "note": "B05t10&17",
     "common": {
       "pos": "Verb",
@@ -436,7 +441,7 @@
     ]
   },
   {
-    "label": "diz-Verb:morph-TenseAspSuff:",
+    "label": "diz-morphVerb-TenseAspSuff",
     "note": "B05t19 :: Yes/no questions are formed:PNGProclitic[Table 10]+ verbStem + tense + interr (vs. non-interrog:verbStem + tense + subjSuff). Examples:3.8.6 (160)-(164). Template: affVP + interrVP + affTrans + interrTrans.",
     "common": {
       "pos": "Verb",
@@ -446,7 +451,7 @@
       ["tam" ,"token-note-template" ,"token"],
       ["Future" ,"kez-i-go + a3-kez-i + it becomes_hot + does it become_hot?" ,"-i"],
       ["Imperfective" ,"kes-dɛ-no + a2-kes-da + I pay + do you pay?" ,"-d"],
-      ["Past" ,"ho:-s-Ø-e + i-ho:-s-ŋ + she helped + did she help?" ,"⊤"],
+      ["Past" ,"ho:-s-Ø-e + i-ho:-s-ŋ + she helped + did she help?" ,"-e"],
       ["Perfect" ,"mam-ki-go + a3-mam-1kŋ1 + it has been_prepared + has it been_prepared?" ,"-1kŋ1"],
       ["Present" ,"tus-k-ǝ-no + a2-tus-2kŋ1 + I know + do you know?" ,"-2kŋ1"]
     ]
